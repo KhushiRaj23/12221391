@@ -1,7 +1,7 @@
 # React URL Shortener Web App
 
 ## Overview
-This project is a fully functional, production-grade React web application for URL shortening, built as part of an assessment. It features robust error handling, analytics, and a custom logging middleware that integrates with a protected API.
+URL shortner is a fully functional, production-grade React web application for URL shortening, built as part of an assessment. It features robust error handling, analytics, and a custom logging middleware that integrates with a protected API.
 
 ## Features
 - Shorten up to 5 URLs at once, with optional validity and custom shortcodes
@@ -35,21 +35,12 @@ This project is a fully functional, production-grade React web application for U
   const [token] = useState('YOUR_ACCESS_TOKEN_HERE');
   ```
 - All log events (info, warn, error) are sent with this token in the Authorization header.
+<img width="1380" height="872" alt="image" src="https://github.com/user-attachments/assets/1a6adc9b-524c-43e0-88b1-ee3c1bf67fb2" />
 
 ## Usage
 - **Shorten URLs:** Enter up to 5 URLs, with optional validity (in minutes) and custom shortcodes. Submit to generate short links.
 - **Redirection:** Click a short link or visit `/s/[shortcode]` to be redirected to the original URL.
 - **Statistics:** View all generated short URLs and their click analytics on the Statistics page.
 
-## Notes
-- All short URL mappings are stored in localStorage for demo purposes (no backend persistence).
-- The app uses only Material UI for styling, as required.
-- No personal or company information is included in the repository, README, or commit messages.
-
-## Requirements Checklist
-- [x] Production-grade React app with Material UI
-- [x] Custom logging middleware integrated
-- [x] No use of built-in loggers or console logging
-- [x] All assignment requirements implemented
-
----
+<img width="1911" height="803" alt="image" src="https://github.com/user-attachments/assets/fc74f17f-fc9a-4d62-b258-12afb83fb912" />
+<img width="1917" height="994" alt="image" src="https://github.com/user-attachments/assets/4a279dac-c45e-430c-a0ac-35efdf027b78" />
